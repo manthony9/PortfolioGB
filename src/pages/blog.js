@@ -15,7 +15,7 @@ export default function Header() {
               title
             }
           }
-          allContentfulLink {
+          allContentfulBlog {
             edges {
               node {
                 title
@@ -69,13 +69,37 @@ export default function Header() {
             </div>
           </div>
           <header>
-            {data.allContentfulLink.edges.map(edge => (
+            {data.allContentfulBlog.edges.map(edge => (
               <h1>{edge.node.title}</h1>
             ))}
           </header>
           <Footer>
-            <a href="mailto:support@designcode.io">Email</a> to ask anything. ©
-            2018
+            <div className="Logos" id="footer">
+              <a href="mailto:morris.anthony2992@gmail.com">
+                {" "}
+                <img
+                  src={require("../images/logo-gmail.png").default}
+                  width="50"
+                  alt=""
+                />
+              </a>
+              <a href="http://ca.linkedin.com/in/morris-anthony-161263128">
+                {" "}
+                <img
+                  src={require("../images/logo-linkedin.png").default}
+                  width="50"
+                  alt=""
+                />
+              </a>
+              <a href="https://github.com/manthony9">
+                {" "}
+                <img
+                  src={require("../images/logo-github.png").default}
+                  width="50"
+                  alt=""
+                />
+              </a>
+            </div>
           </Footer>
         </div>
       )}
