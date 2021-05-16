@@ -18,7 +18,7 @@ const IndexPage = () => (
 
         <div className="Logos">
           <img
-            src={require("../images/logo-sketch.png").default}
+            src={require("../images/logo-c++.svg").default}
             width="50"
             alt=""
           />
@@ -28,12 +28,12 @@ const IndexPage = () => (
             alt=""
           />
           <img
-            src={require("../images/logo-studio.png").default}
+            src={require("../images/logo-angular.svg").default}
             width="50"
             alt=""
           />
           <img
-            src={require("../images/logo-framer.png").default}
+            src={require("../images/logo-python.svg").default}
             width="50"
             alt=""
           />
@@ -52,7 +52,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Cards">
-      <h2>Projects</h2>
+      <h2 id="projects">Projects</h2>
       <div className="CardGroup">
         <Card
           title="Music Streamer"
@@ -86,33 +86,39 @@ const IndexPage = () => (
         />
       </div>
     </div>
-    <Section />
-    <div className="Cards">
-      <h2>Articles</h2>
-      <div className="CardGroup">
-        <Card
-          title="Music Streamer"
-          text="Angular"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="Cleaning Scheduler"
-          text="Vue"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="ECommerce"
-          text="React"
-          image={require("../images/wallpaper.jpg").default}
-        />
-      </div>
-    </div>
+
     <Section
+      id="footer"
       title="About Me"
       text="I'm a Computer Programming and Analysis student at Seneca College. I love problem solving. I started my career in Customer Service, taught myself SQL and worked as a Information Systems Analyst. Currently looking for Co-Op positions in Software Development."
     />
     <Footer>
-      <a href="mailto:support@designcode.io">Email</a> to ask anything. © 2018
+      <div className="Logos" id="footer">
+        <a href="mailto:morris.anthony2992@gmail.com">
+          {" "}
+          <img
+            src={require("../images/logo-gmail.png").default}
+            width="50"
+            alt=""
+          />
+        </a>
+        <a href="http://ca.linkedin.com/in/morris-anthony-161263128">
+          {" "}
+          <img
+            src={require("../images/logo-linkedin.png").default}
+            width="50"
+            alt=""
+          />
+        </a>
+        <a href="https://github.com/manthony9">
+          {" "}
+          <img
+            src={require("../images/logo-github.png").default}
+            width="50"
+            alt=""
+          />
+        </a>
+      </div>
     </Footer>
   </div>
 )

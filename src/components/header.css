@@ -7,7 +7,7 @@
 }
 
 .HeaderScrolled {
-  background: #50bcb9;
+  background: #1a203c;
   padding: 15px 0;
   backdrop-filter: blur(20px);
 }
@@ -28,10 +28,6 @@
 .Header a {
   color: black;
   font-weight: 700;
-}
-
-.Header a:hover {
-  color: #50bcb9;
 }
 
 @media (max-width: 640px) {

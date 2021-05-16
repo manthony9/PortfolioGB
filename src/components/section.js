@@ -33,7 +33,7 @@ const SectionTitleGroup = styled.div`
 `
 
 const SectionTitle = styled.h3`
-  color: #50bcb9;
+  color: #345d7c;
   font-size: 60px;
   margin: 0;
   line-height: 1.2;

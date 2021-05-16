@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const FooterGroup = styled.div`
-  background: #50bcb9;
+  background: #1a203c;
   padding: 50px 0;
   display: grid;
   grid-gap: 20px;
@@ -10,7 +10,7 @@ const FooterGroup = styled.div`
 const Text = styled.p`
   font-size: 24px;
   font-weight: 600;
-  color: #486791;
+  color: #ffffff;
   max-width: 500px;
   margin: 0 auto;
 `
@@ -32,19 +32,25 @@ const Button = styled.button`
 `
 
 const Copyright = styled.div`
-  color: #486791;
+  color: #ffffff;
   max-width: 500px;
   margin: 0 auto;
   padding: 0 20px;
 `
 
-const Footer = ({ children }) => (
-  <FooterGroup>
-    <Text></Text>
-    <Button>Contact</Button>
+const Logos = styled.a`
+  margin: 0 auto;
+  padding-top: 25px;
+`
 
-    <Copyright>{children}</Copyright>
-  </FooterGroup>
+const Footer = ({ children }) => (
+  <>
+    <FooterGroup>
+      <Button>Contact</Button>
+      <Logos>{children}</Logos>
+      <Text> © 2021</Text>
+    </FooterGroup>
+  </>
 )
 
 export default Footer

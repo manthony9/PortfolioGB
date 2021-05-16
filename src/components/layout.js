@@ -1,7 +1,12 @@
 import React from "react"
 import Helmet from "react-helmet"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
+
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 
 const Layout = ({ children }) => {
   return (

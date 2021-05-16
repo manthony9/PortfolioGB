@@ -1,5 +1,6 @@
 import React from "react"
-import Link from "gatsby-link"
+import { Link } from "gatsby"
+
 import "./header.css"
 
 class Header extends React.Component {
@@ -31,10 +32,10 @@ class Header extends React.Component {
         className={this.state.hasScrolled ? "Header HeaderScrolled" : "Header"}
       >
         <div className="HeaderGroup">
-          <Link to="/"></Link>
-          <Link to="/courses">Contact</Link>
-          <Link to="/downloads">About</Link>
-          <Link to="/workshops">Projects</Link>
+          <Link to=""></Link>
+          <Link to="#footer">Contact</Link>
+          <Link to="#footer">About</Link>
+          <Link to="#projects">Projects</Link>
         </div>
       </div>
     )
