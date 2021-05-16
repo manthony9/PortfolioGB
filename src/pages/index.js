@@ -54,43 +54,55 @@ const IndexPage = () => (
     <div className="Cards">
       <h2 id="projects">Projects</h2>
       <div className="CardGroup">
-        <Card
-          title="Music Streamer"
-          text="Angular"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="Cleaning Scheduler"
-          text="Vue"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="ECommerce"
-          text="React"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="Space Invader"
-          text="Python"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="Chat App"
-          text="Java"
-          image={require("../images/wallpaper.jpg").default}
-        />
-        <Card
-          title="Parking Simulation"
-          text="C++"
-          image={require("../images/wallpaper.jpg").default}
-        />
+        <a href="https://ang-spoti.vercel.app">
+          <Card
+            title="Music Streamer"
+            text="Angular"
+            image={require("../images/wallpaper.jpg").default}
+          />
+        </a>
+        <a href="https://crwn-morris.herokuapp.com">
+          <Card
+            title="React E-Store"
+            text="React"
+            image={require("../images/wallpaper.jpg").default}
+          />
+        </a>
+        <a href="https://github.com/manthony9/Java-Chat-App">
+          <Card
+            title="Java Chat App"
+            text="Java"
+            image={require("../images/wallpaper.jpg").default}
+          />
+        </a>
+        <a href="https://github.com/manthony9/SpaceInvaderPygame">
+          <Card
+            title="Space Invader"
+            text="Python"
+            image={require("../images/wallpaper.jpg").default}
+          />
+        </a>
+        <a href="https://github.com/manthony9/DigitalHealthHackathon">
+          <Card
+            title="Hackathon"
+            text="MERN"
+            image={require("../images/wallpaper.jpg").default}
+          />
+        </a>
+        <a href="https://github.com/manthony9/ParkingApp">
+          <Card
+            title="Parking Simulation"
+            text="C++"
+            image={require("../images/wallpaper.jpg").default}
+          />
+        </a>
       </div>
     </div>
 
     <Section
       id="footer"
       title="About Me"
-      text="I'm a Computer Programming and Analysis student at Seneca College. I love problem solving. I started my career in Customer Service, taught myself SQL and worked as a Information Systems Analyst. Currently looking for Co-Op positions in Software Development."
+      text="I'm a student at Seneca College studying Programming. I love problem solving and learning new things. Using Gatsby for this project has been a nice experience. Do checkout the projects section for some of my other projects and feel free to reach out for collaborations or questions."
     />
     <Footer>
       <div className="Logos" id="footer">
