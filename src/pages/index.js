@@ -58,7 +58,7 @@ const IndexPage = () => (
           <Card
             title="Music Streamer"
             text="Angular"
-            image={require("../images/wallpaper.jpg").default}
+            image={require("../images/wallpaper2.jpg").default}
           />
         </a>
         <a href="https://crwn-morris.herokuapp.com">
@@ -72,28 +72,28 @@ const IndexPage = () => (
           <Card
             title="Clean-Up"
             text="Vue"
-            image={require("../images/wallpaper.jpg").default}
+            image={require("../images/wallpaper2.jpg").default}
           />
         </a>
         <a href="https://github.com/manthony9/Java-Chat-App">
           <Card
             title="Java Chat App"
             text="Java"
-            image={require("../images/wallpaper3.jpg").default}
+            image={require("../images/wallpaper2.jpg").default}
           />
         </a>
         <a href="https://github.com/manthony9/SpaceInvaderPygame">
           <Card
             title="Space Invader"
             text="Python"
-            image={require("../images/wallpaper4.jpg").default}
+            image={require("../images/wallpaper2.jpg").default}
           />
         </a>
         <a href="https://github.com/manthony9/ParkingApp">
           <Card
             title="Parking Simulation"
             text="C++"
-            image={require("../images/wallpaper.jpg").default}
+            image={require("../images/wallpaper2.jpg").default}
           />
         </a>
       </div>
