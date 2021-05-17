@@ -65,6 +65,13 @@ const IndexPage = () => (
           <Card
             title="React E-Store"
             text="React"
+            image={require("../images/wallpaper2.jpg").default}
+          />
+        </a>
+        <a href="https://clean-up-omega.vercel.app">
+          <Card
+            title="Clean-Up"
+            text="Vue"
             image={require("../images/wallpaper.jpg").default}
           />
         </a>
@@ -72,21 +79,14 @@ const IndexPage = () => (
           <Card
             title="Java Chat App"
             text="Java"
-            image={require("../images/wallpaper.jpg").default}
+            image={require("../images/wallpaper3.jpg").default}
           />
         </a>
         <a href="https://github.com/manthony9/SpaceInvaderPygame">
           <Card
             title="Space Invader"
             text="Python"
-            image={require("../images/wallpaper.jpg").default}
-          />
-        </a>
-        <a href="https://github.com/manthony9/DigitalHealthHackathon">
-          <Card
-            title="Hackathon"
-            text="MERN"
-            image={require("../images/wallpaper.jpg").default}
+            image={require("../images/wallpaper4.jpg").default}
           />
         </a>
         <a href="https://github.com/manthony9/ParkingApp">
