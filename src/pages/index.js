@@ -43,7 +43,7 @@ const IndexPage = () => (
             alt=""
           />
           <img
-            src={require("../images/logo-swift.png").default}
+            src={require("../images/logo-gatsby.svg").default}
             width="50"
             alt=""
           />
